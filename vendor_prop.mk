@@ -2,7 +2,7 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.product=le_zl1 \
     ro.config.le_hardware_version=HW_1.0.0 \
-    ro.display.series="Le Pro3"
+    ro.display.series=LePro3
 
 # Apical AD
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -19,4 +19,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.qfp=false
+    persist.qfp=false \
+    ro.fingerprint.cleanup.unused=false
